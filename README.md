@@ -1,3 +1,3 @@
 # HotelCancellation
 
-In this project, I used hotel cancellation data to create a predictive model to find out the likelihood of someone canceling their reservation at a hotel. I had to feature engineer in the final model and tested the model through various different algorithms, such as xgboost and randomforest. I included neural net for fun but obvious had weaker results.
+In this project, I used hotel cancellation data to create a predictive model to find out the likelihood of someone canceling their reservation at a hotel. I had to clean the data after the initial EDA as many NAs were present. I implemented feature engineering with new variables, such as difference between registration and checkin. I also reduced features by combining, such as register dates and check-in dates. I used machine learning techniques such as XGBoost, RandomForest, Neural Net, and LASSO. I compared the models performences by AUC score to choose the best model. This was all done in R.
